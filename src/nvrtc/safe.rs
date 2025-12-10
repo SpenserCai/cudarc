@@ -33,9 +33,9 @@ impl Ptx {
     }
 
     /// Get the compiled source as a string.
-    /// 
+    ///
     /// # Panics
-    /// 
+    ///
     /// Panics if the Ptx was created from binary CUBIN data, as CUBIN cannot be
     /// converted to a string representation.
     pub fn to_src(&self) -> String {
